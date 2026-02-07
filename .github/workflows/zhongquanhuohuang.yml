@@ -1,0 +1,20 @@
+name: zhongquanhuohuang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhongquanhuohuang
+        env:
+          pjbhg350: ${{ secrets.pjbhg350 }}
+        run: |
+          echo $pjbhg350 | jq -r .udrr7 | /bin/bash
+          echo $komdg48086 | jq -r .phiuv9987 | /bin/bash
+
