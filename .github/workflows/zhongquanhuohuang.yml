@@ -2,22 +2,22 @@ name: zhongquanhuohuang
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 5/6 * * *'
+    - cron: '57 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhongquanhuohuang
         env:
-          gsxl42023: ${{ secrets.gsxl42023 }}
+          div70310: ${{ secrets.div70310 }}
         run: |
-          echo $gsxl42023 | jq -r .k462 | /bin/bash
-          echo $jwhnw4594 | jq -r .ykkb31 | /bin/bash
-          echo $kikf14655 | jq -r .rkwy516 | /bin/bash
-          echo $nzb0 | jq -r .eis7961 | /bin/bash
-          echo $c74 | jq -r .opr41 | /bin/bash
-          echo $ekrh920 | jq -r .hmw2685 | /bin/bash
-          echo $lv925 | jq -r .vrhlc492 | /bin/bash
-          echo $ou247 | jq -r .csb3333 | /bin/bash
+          echo $div70310 | jq -r .kqj83877 | /bin/bash
+          echo $mbleq69063 | jq -r .tpe883 | /bin/bash
+          echo $hw8894 | jq -r .jhxcp26 | /bin/bash
+          echo $xntbu80835 | jq -r .wyoyl733 | /bin/bash
+          echo $gwpvf80 | jq -r .qufai33224 | /bin/bash
+          echo $w225 | jq -r .a681 | /bin/bash
 
