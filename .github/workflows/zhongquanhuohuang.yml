@@ -1,23 +1,20 @@
 name: zhongquanhuohuang
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 3/6 * * *'
+    - cron: '9 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhongquanhuohuang
         env:
-          div70310: ${{ secrets.div70310 }}
+          vn7168: ${{ secrets.vn7168 }}
         run: |
-          echo $div70310 | jq -r .kqj83877 | /bin/bash
-          echo $mbleq69063 | jq -r .tpe883 | /bin/bash
-          echo $hw8894 | jq -r .jhxcp26 | /bin/bash
-          echo $xntbu80835 | jq -r .wyoyl733 | /bin/bash
-          echo $gwpvf80 | jq -r .qufai33224 | /bin/bash
-          echo $w225 | jq -r .a681 | /bin/bash
+          echo $vn7168 | jq -r .vrpp270 | /bin/bash
+          echo $ncctb8540 | jq -r .bf3 | /bin/bash
+          echo $srxqz54 | jq -r .ayhg4 | /bin/bash
 
